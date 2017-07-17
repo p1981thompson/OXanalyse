@@ -1,0 +1,90 @@
+---
+title             : "Research Article"
+shorttitle        : "Research Article"
+
+author: 
+  - name          : "My name"
+    affiliation   : "1"
+    corresponding : yes    # Define only one corresponding author
+    address       : "Department of Experimental Psychology, Ewert Place, Banbury road, Summertown, Oxford, OX2 7DD"
+    email         : "my_email@psy.ox.ac.uk"
+  - name          : "A.N.Other-Researcher"
+    affiliation   : "1"
+  - name          : "Dorothy V. M. Bishop"
+    affiliation   : "1"
+
+
+affiliation:
+  - id            : "1"
+    institution   : "Department of Experimental Psychology, University of Oxford"
+
+
+abstract: >
+  This is the abstract of my new paper. please update the text!
+  
+keywords          : "keyword1, keyword2, keyword3"
+wordcount         : "X"
+
+bibliography      : ["mybibfile.bib"]
+
+figsintext        : no
+figurelist        : no
+tablelist         : no
+footnotelist      : no
+lineno            : yes
+fig_caption       : yes
+
+lang              : "english"
+class             : "man"
+output            : papaja::apa6_word
+---
+
+```{r include = FALSE}
+library("papaja")
+```
+
+  [@R-base]Here is the article text. Specifically, here is an equation,
+
+$$LI=  \frac{(L-R)}{(L+R)}$$
+   
+
+## Section header
+  blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
+  
+  blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
+
+### *subsetion header*
+
+   blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
+  
+  blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah 
+
+Here is a link to DOI: [link](https://osf.io/t24rv/). 
+  
+ 
+
+## another new section
+
+You can include R plots or tables at the end like this.
+
+```{r, fig.width=11, fig.height=8, message=FALSE, warning=FALSE, fig.cap='Forest plot...'}
+
+hist(rnorm(1000,0,1))
+
+```
+
+
+## Funding
+
+  This work was supported by ...
+
+## Acknowledgements
+
+\newpage
+
+# References
+
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+
