@@ -10,7 +10,7 @@ author:
     email         : "my_email@psy.ox.ac.uk"
   - name          : "A.N.Other-Researcher"
     affiliation   : "1"
-  - name          : "Dorothy V. M. Bishop"
+  - name          : "Dorothy Bishop"
     affiliation   : "1"
 
 
